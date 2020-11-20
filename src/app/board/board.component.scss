@@ -1,0 +1,33 @@
+main {
+  display: grid;
+  grid-template-columns: 10em 10em 10em;
+  gap: 0px;
+}
+
+app-square {
+  border: 1px black solid;
+  height: 10em;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 8em;
+  align-items: center;
+}
+
+.new-game-button {
+  margin-left: 2em;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+}
